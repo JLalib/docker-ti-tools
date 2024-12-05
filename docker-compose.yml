@@ -1,0 +1,7 @@
+services:
+    it-tools:
+        container_name: it-tools
+        restart: unless-stopped
+        ports:
+            - 8080:80 #Change your Local Port
+        image: corentinth/it-tools:latest
